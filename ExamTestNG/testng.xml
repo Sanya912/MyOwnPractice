@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Common Dep">
+  <test thread-count="5" name="Car Dep">
+    <classes>
+      
+      <class name="First"/>
+    </classes>  
+  </test>
+  
+  <!-- Create test --> 
+  <test name="Skip one test">
+  <classes> <!-- Create classes --> 
+  <class name="Second"> <!-- Create class in which skip the test --> 
+  <methods> <!-- Create met --> 
+  <exclude name="Vtoroi"></exclude> <!-- What to exclude from class --> 
+  <exclude name="VtTR"/>
+  </methods>
+  
+  	</class>
+  </classes>
+  
+  </test>
+   
+</suite> 

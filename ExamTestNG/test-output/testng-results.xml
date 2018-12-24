@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Common Dep" duration-ms="100" started-at="2018-09-26T14:46:40Z" finished-at="2018-09-26T14:46:40Z">
+    <groups>
+    </groups>
+    <test name="Car Dep" duration-ms="39" started-at="2018-09-26T14:46:40Z" finished-at="2018-09-26T14:46:40Z">
+      <class name="First">
+        <test-method status="PASS" signature="AA()[pri:0, instance:First@1810399e]" name="AA" duration-ms="16" started-at="2018-09-26T14:46:40Z" finished-at="2018-09-26T14:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AA -->
+      </class> <!-- First -->
+    </test> <!-- Car Dep -->
+    <test name="Skip one test" duration-ms="4" started-at="2018-09-26T14:46:40Z" finished-at="2018-09-26T14:46:40Z">
+      <class name="Second">
+        <test-method status="PASS" signature="vtoroiOne()[pri:0, instance:Second@5c7fa833]" name="vtoroiOne" duration-ms="1" started-at="2018-09-26T14:46:40Z" finished-at="2018-09-26T14:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtoroiOne -->
+      </class> <!-- Second -->
+    </test> <!-- Skip one test -->
+  </suite> <!-- Common Dep -->
+</testng-results>
